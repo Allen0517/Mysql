@@ -5,7 +5,7 @@ $workId = $_GET['id'];
 $data = $conn->prepare("SELECT * FROM works where id = ".$workId);
 $data->execute();
 $result = $data->fetchAll(PDO::FETCH_ASSOC);
-
+$uploadOk = 1;
 if(!empty($_POST['submit'])){
     $name        = empty($_POST['name'])? $result[0]['name']:$_POST['name'];
     $link        = empty($_POST['link'])? $result[0]['link']:$_POST['link'];
