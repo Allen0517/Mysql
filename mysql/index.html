@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content='width=device-width,initial-scale=1'/>
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.min"></script>
+	<script src="js/css3-mediaqueries.min.js"></script>
+	<![endif]-->
+
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="./css/globle.css">-->
+	<link rel="stylesheet" href="./css/mine.css">
+	<link rel="stylesheet" href="./css/mediaquery.css">
+	<link rel="stylesheet" href="./css/swipebox.css">
+	<script src="./js/jquery.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/jquery.swipebox.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="./js/dist/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="./js/dist/jquery.bxslider.css" rel="stylesheet" />
+
+	<title>Title</title>
+</head>
+<body>
+
+<nav class="clearfix">
+			<div class="navbar navbar-default navbar-fixed-top nav-main" role="navigation">
+				<div class="container topnav">
+					<div class="row ">
+				<div class=" col-md-4 col-sm-4 col-xs-7 logo-image">
+					<div class="navbar-header ">
+						<a class="" href="#">
+							<img class="" alt="Brand" src="./images/index.png">
+						</a>
+					</div>
+				</div>
+				<div class=" col-md-8 col-sm-8  col-xs-5" >
+				<div class="navbar-header  nav-right">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse " id="nav-collapse-1">
+					<ul class="nav navbar social-share hidden-xs">
+						<li><a href="/" ><span class="glyphicon glyphicon-envelope"></span></a></li>
+						<li><a href="/"><span class="glyphicon glyphicon-film"></span></a></li>
+						<li><a href="/"><span class="glyphicon glyphicon-user"></span></a></li>
+						<li><a href="/"><span class="glyphicon glyphicon-th"></span></a></li>
+					</ul>
+					<ul class="nav navbar navpart">
+						<li><a class="nav-special" href="#">OUR WORK</a></li>
+						<li><a href="#">SERVICES</a></li>
+						<li><a href="#">ABOUT US</a></li>
+						<li><a href="#">CONTACT</a></li>
+						<li><a href="#">CAREERS</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</nav>
+
+
+<section>
+	<div class="container-fluid banner">
+		<div class="row">
+			<ul class="bxslider">
+				<li><img class="responsive-img" src="./images/banner.jpg" /></li>
+				<li><img class="responsive-img" src="./images/banner6.jpg" /></li>
+				<li><img class="responsive-img" src="./images/banner2.jpg" /></li>
+				<li><img class="responsive-img" src="./images/banner3.jpg" /></li>
+				<li><img class="responsive-img" src="./images/banner4.jpg" /></li>
+				<li><img class="responsive-img" src="./images/banner5.jpg" /></li>
+			</ul>
+			<script>
+				$(document).ready(function(){
+					$('.bxslider').bxSlider({
+						adaptiveHeight: true,
+						mode: 'fade'
+					});
+				});
+			</script>
+		</div>
+	</div>
+
+	<div class="container main-content">
+		<div class="row">
+
+			<script type="text/javascript">
+				;( function( $ ) {
+
+					$( '.swipebox' ).swipebox({
+						useCSS : true, // false will force the use of jQuery for animations
+						useSVG : true, // false to force the use of png for buttons
+						initialIndexOnArray : 0, // which image index to init when a array is passed
+						hideCloseButtonOnMobile : false, // true will hide the close button on mobile devices
+						removeBarsOnMobile : true, // false will show top bar on mobile devices
+						hideBarsDelay : 3000, // delay before hiding bars on desktop
+						videoMaxWidth : 1140, // videos max width
+						beforeOpen: function() {}, // called before opening
+						afterOpen: null, // called after opening
+						afterClose: function() {}, // called after closing
+						loopAtEnd: false // true will return to the first image after the last image is reached
+					});
+
+				} )( jQuery );
+			</script>
+
+			<div class="col-md-8 col-sm-12 main-left">
+				<div class="row">
+					<a class="btn btn-default btn-sm right view-button" href="#"><span>VIEW ALL</span></a>
+					<span class="left-title left">LATEST WORK</span>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-6 item">
+						<a class="product-content swipebox" href="./images/image1.jpg"><img class="responsive-img "  src="./images/image1.jpg"><span class="product-detail text-center">...ME TOO SHOES</span></a>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 item">
+						<a class="product-content swipebox" href="./images/image2.jpg"><img class="responsive-img" src="./images/image2.jpg"><span class="product-detail text-center">...ME TOO SHOES</span></a>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 item">
+						<a class="product-content swipebox" href="./images/image3.jpg"><img class="responsive-img" src="./images/image3.jpg"><span class="product-detail text-center">...ME TOO SHOES</span></a>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 item">
+						<a class="product-content swipebox" href="./images/image1.jpg"><img class="responsive-img" src="./images/image1.jpg"><span class="product-detail text-center">...ME TOO SHOES</span></a>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6 item">
+						<a class="product-content swipebox" href="./images/image2.jpg"><img class="responsive-img" src="./images/image2.jpg"><span class="product-detail text-center">...ME TOO SHOES</span></a>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6  item">
+						<a class="product-content swipebox" href="./images/image3.jpg"><img class="responsive-img" src="./images/image3.jpg"><span class="product-detail text-center">...ME TOO SHOES</span></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-12 main-right">
+				<div class="inner-right">
+					<div class="row">
+						<h4 class="right-title ">FEATURED PARTNERS</h4>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-sm-4 col-xs-6 "><img class="responsive-img" src="./images/magento.png"></div>
+						<div class="col-md-12 col-sm-4 col-xs-6 "><img class="responsive-img" src="./images/openbravo.png"></div>
+						<div class="col-md-12 col-sm-4 col-xs-6 "><img class="responsive-img" src="./images/sugarcrm.png"></div>
+					</div>
+					<div class="row">
+						<a class="btn btn-default btn-sm view-button" href="partners.html"><span>VIEW MORE</span></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+<section class="about-part">
+	<div class="container about-us">
+		<div class="row">
+			<div class="col-sm-4">
+				<h2><img class="responsive-img" src="./images/whoweare.png"></h2>
+				<p>Verecom is a leading provider of global ecommerce solutions, specializes in creating, developing and running online shopping stores.</p>
+				<a href="#">More&gt;&gt;</a>
+			</div>
+			<div class="col-sm-4">
+				<h2><img class="responsive-img" src="./images/whoweare.png"></h2>
+				<p>We offer a wide variety of solutions tailored for your business' unique needs, including consultancy, online marketing, design and implementation.</p>
+				<a href="#">More&gt;&gt;</a>
+			</div>
+			<div class="col-sm-4">
+				<h2><img class="responsive-img" src="./images/whoweare.png"></h2>
+				<p>We have worked with many clients who choose us as the preferred ecommerce partner, because we deliver scalable and successful online stores.</p>
+				<a href="#">More&gt;&gt;</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container-fluid foot">
+		<div class="row copyright">
+			© Copyright 2011 Verecom Technologies. All Rights Reserved. Terms of Service.
+		</div>
+	</div>
+
+</footer>
+
+
+
+
+</body>
+</html>

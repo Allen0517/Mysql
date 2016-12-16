@@ -1,0 +1,120 @@
+@media screen and (min-width:1200px){
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+	.topnav{
+		width:960px;
+	}
+	.main-content{
+		width:960px;
+	}
+	.about-us{
+		width:960px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width: 992px){
+
+	.topnav{
+		width:100%;
+	}
+	.main-content{
+		width:100%;
+	}
+	.about-us{
+		width:100%;
+	}
+	.product-detail{
+		top:70px;
+	}
+
+
+}
+
+@media screen and (min-width:480px) and (max-width: 768px){
+
+	.topnav{
+		width:100%;
+	}
+	.main-content{
+		width:100%;
+	}
+	.about-us{
+		width:100%;
+	}
+	.product-detail{
+		top:100px;
+	}
+	.navpart{
+		float: right;
+		margin-bottom: 0px;
+		position: relative;
+		top: 0px;
+		width:90px;
+	}
+	.navpart li a{
+		padding-left:0px;
+		padding-right:0px;
+		font-size:14px;
+		color:red;
+		font-weight:500;
+		/*border-bottom: 4px red solid;*/
+		z-index: 99;
+
+	}
+	.navpart li a:hover{
+		color:black;
+		border-bottom: 0;
+		background-color: white;
+		border-right:none;
+	}
+}
+
+@media screen and (max-width: 480px){
+
+	.topnav{
+		width:100%;
+	}
+	.main-content{
+		width:100%;
+	}
+	.about-us{
+		width:100%;
+	}
+	.product-detail{
+		top:50px;
+		line-height: 49px;
+	}
+	.logo-image img{
+		width:180px;
+		padding-left:0px;
+	}
+	.navpart{
+		float: right;
+		margin-bottom: 0px;
+		position: relative;
+		top: 0px;
+		width:90px;
+	}
+	.navpart li a{
+		padding-left:0px;
+		padding-right:0px;
+		font-size:14px;
+		color:red;
+		font-weight:500;
+		/*border-bottom: 4px red solid;*/
+		z-index: 99;
+
+	}
+	.navpart li a:hover{
+		color:black;
+		border-bottom: 0;
+		background-color: white;
+		border-right:none;
+	}
+}
+
+
+
+

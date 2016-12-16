@@ -1,0 +1,201 @@
+.clearfix{
+    overflow: hidden;
+    zoom:1;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+.none{
+    float: none;
+}
+
+
+.nav-main{
+    width: 100%;
+    margin-bottom:0px;
+    border-bottom: 4px red solid;
+    background-color: white;
+}
+.topnav{
+    width:1000px;
+}
+.logo-image{
+    line-height: 100px;
+    background-color: white;
+}
+#nav-collapse-1{
+    background: white;
+}
+.nav-right{
+    border: 1px white solid;
+    background-color: white;
+    padding-top:20px;
+}
+.social-share{
+    text-align: right;
+    margin-bottom: 0px;
+    position: relative;
+
+}
+.navpart{
+    text-align: right;
+    margin-bottom: 0px;
+    /*float:right;*/
+    position: absolute;
+    top: 62.5px;
+    right:10px;
+}
+.navpart li {
+    float:left;
+    display: inline-block;
+}
+.social-share li{
+    display: inline-block;
+    list-style-type: none;
+    padding:15px;
+
+}
+.social-share li a{
+    font-size:16px;
+    color:#ccc;
+    padding:0px;
+}
+.social-share li a:hover{
+    color:red;
+}
+.navpart li a{
+    padding-left:10px;
+    font-size:14px;
+    color:red;
+    font-weight:500;
+    /*border-bottom: 4px red solid;*/
+    z-index: 99;
+    border-right: 1px solid white;
+}
+.nav-special{
+    z-index: 999;
+    border-left: 1px solid white;
+}
+.navpart li a:hover{
+    color:black;
+    border-bottom: 4px black solid;
+    background-color: white;
+    border-right:none;
+}
+
+.banner{
+
+}
+.bxslider img{
+    padding-top:100px;
+    border-bottom:4px red solid;
+}
+
+.responsive-img{
+    display: inline;
+    width: 100%;
+    height: auto;
+}
+.main-content{
+    width:1000px;
+}
+/**/
+.main-left{
+    padding-top:33px;
+}
+.left-title{
+    padding-left: 10px;
+    font-size:14px;
+}
+.view-button{
+    background-color: #ef403a;
+    font-size:12px;
+    line-height: 14px;
+    color: white;
+    padding-left:15px;
+    padding-right:15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border:none;
+}
+
+.product-content{
+    width:100%;
+    display: inline-block;
+    padding-bottom: 25px;
+    background: url(../images/portfolioB.png) center bottom no-repeat;
+    position: relative;
+}
+.item{
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top:10px;
+}
+
+.item a:hover span{
+    display: inline-block;
+}
+.item span{
+    display: none;
+}
+.product-detail{
+    line-height: 69px;
+    color:white;
+    width:100%;
+    background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.main-right{
+    padding-left:20px;
+}
+.inner-right{
+    padding-left: 40px;
+    border-left:1px red dotted;
+    border-right:1px red dotted;
+}
+.right-title{
+    font-size:14px;
+    padding-top:30px;
+}
+.about-part{
+    margin-top:30px;
+    background:url(../images/verecom_bg.png) center bottom no-repeat #ef403a;
+}
+.about-us{
+    width:1000px;
+}
+.about-us img{
+    height:14px;
+    width:146px;
+}
+.about-us h2{
+    margin:0px;
+    padding:15px;
+    border-bottom: 1px solid #dd2b24;
+}
+.about-us p{
+    text-align: justify;
+    padding-top:16px;
+    padding-bottom:16px;
+    border-top: 1px solid #fd544e;
+}
+.about-us a{
+    font-weight: 500;
+    color:white;
+}
+.copyright{
+    text-align: center;
+    padding:15px;
+    color:gray;
+}
+.foot{
+    background-color: black;
+}
