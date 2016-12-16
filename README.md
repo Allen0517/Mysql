@@ -1,1 +1,1 @@
-http://localhost/w500/mysql/
+http://localhost/w500/mysql/   for jquery plugin
